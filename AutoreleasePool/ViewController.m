@@ -15,17 +15,17 @@ __weak NSString *string_weak_ = nil;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // 第 1 种
+    // case 1
     NSString *string = [NSString stringWithFormat:@"leichunfeng"];
     string_weak_ = string;
     
-    // 第 2 种
+    // case 2
 //    @autoreleasepool {
 //        NSString *string = [NSString stringWithFormat:@"leichunfeng"];
 //        string_weak_ = string;
 //    }
     
-    // 第 3 种
+    // case 3
 //    NSString *string = nil;
 //    @autoreleasepool {
 //        string = [NSString stringWithFormat:@"leichunfeng"];
