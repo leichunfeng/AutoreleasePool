@@ -20,17 +20,17 @@ __weak NSString *string_weak_ = nil;
     string_weak_ = string;
     
     // 场景 2
-    //    @autoreleasepool {
-    //        NSString *string = [NSString stringWithFormat:@"leichunfeng"];
-    //        string_weak_ = string;
-    //    }
+//    @autoreleasepool {
+//        NSString *string = [NSString stringWithFormat:@"leichunfeng"];
+//        string_weak_ = string;
+//    }
     
     // 场景 3
-    //    NSString *string = nil;
-    //    @autoreleasepool {
-    //        string = [NSString stringWithFormat:@"leichunfeng"];
-    //        string_weak_ = string;
-    //    }
+//    NSString *string = nil;
+//    @autoreleasepool {
+//        string = [NSString stringWithFormat:@"leichunfeng"];
+//        string_weak_ = string;
+//    }
     
     NSLog(@"string: %@", string_weak_);
 }
