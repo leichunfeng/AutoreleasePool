@@ -1,5 +1,7 @@
 # AutoreleasePool
 
+我的博文[《Objective-C Autorelease Pool 的实现原理》](http://blog.leichunfeng.com/blog/2015/05/31/objective-c-autorelease-pool-implementation-principle/)的完整配套代码。
+
 ``` objc
 __weak NSString *string_weak_ = nil;
 
